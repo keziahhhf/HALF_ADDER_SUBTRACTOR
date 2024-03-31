@@ -52,7 +52,16 @@ Figure -02 HALF Subtractor
 
 **Program:**
 
+Developed by: RegisterNumber:* 212223040094 keziah.F
 
+module halfaddsub(a,b,sum,carry,D,Bo);
+input a,b; 
+output sum,carry,D,Bo;
+wire abar; 
+not(abar,a); 
+xor(D,a,b); 
+and(Bo,abar,b); 
+endmodule
 
 
 
@@ -60,10 +69,12 @@ Figure -02 HALF Subtractor
 
 **RTL Schematic**
 
+![316397501-98ea0644-d39c-4475-a684-368ed4dabeb1](https://github.com/keziahhhf/HALF_ADDER_SUBTRACTOR/assets/155235704/f511178f-ebc1-4026-b1eb-2b6b0016a65e)
 
 
 
 **Output/TIMING Waveform**
+![316397501-98ea0644-d39c-4475-a684-368ed4dabeb1](https://github.com/keziahhhf/HALF_ADDER_SUBTRACTOR/assets/155235704/b6219b8c-112f-4534-aefb-f96c2e5ac1cd)
 
 
 **Result:**
