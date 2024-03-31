@@ -74,8 +74,7 @@ endmodule
 
 
 **Output/TIMING Waveform**
-![316397501-98ea0644-d39c-4475-a684-368ed4dabeb1](https://github.com/keziahhhf/HALF_ADDER_SUBTRACTOR/assets/155235704/b6219b8c-112f-4534-aefb-f96c2e5ac1cd)
-
+![316397544-c38e2040-e35d-4c3f-b19a-334017289f75](https://github.com/keziahhhf/HALF_ADDER_SUBTRACTOR/assets/155235704/7ab6daeb-15aa-42bf-a96d-7cf140e190a0)
 
 **Result:**
 Thus the design of a half adder and half subtractor circuit and its truth table in Quartus using Verilog programming is successfully completed.
